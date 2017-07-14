@@ -7,7 +7,7 @@ namespace Api.Controllers
 {
     public class AccountController : Controller
     {
-        public async Task<IActionResult> Authenticate()
+        public Task<IActionResult> Authenticate()
         {
             return new OkResult();
         }
